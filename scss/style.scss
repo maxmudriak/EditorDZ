@@ -1,0 +1,57 @@
+@import "layout.scss";
+@import "normalize.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+textarea {
+	width: 200px;
+	height: 200px;
+}
+.ba-main{
+	padding: 20px;
+
+}
+.ba-editor {
+	box-shadow: 2px 5px 2px 0 #ccc;
+}
+
+//media queries
+@import "media.scss";
